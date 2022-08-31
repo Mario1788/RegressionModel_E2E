@@ -1,9 +1,10 @@
 # SparkRegressionModel_E2E
+
 Spark Regression Model - End to End 
 
 This is a Pyspark project using Boston housing data. 
 
-The project outcomes 
+## The project outcomes 
 1. Pyspark - Python notebook
 2. Create a Github project
 3. Clone the Project - Creating the user and integration between local machine and Github
@@ -12,7 +13,7 @@ The project outcomes
 6. Environment setup (Environment is setup, Need to activate it)
 
 
-Excluded
+## Excluded from thsi project
 1. Cloud deployment
 2. Frond End App Setup
 
@@ -20,7 +21,9 @@ Excluded
 ## Environment Setup
 
 Create a new environment - Run this on the terminal
+
 ''''
+
 conda activate pydev_38
 
 
