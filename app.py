@@ -5,11 +5,18 @@ from flask import Flask,request,app,jsonify,url_for,render_template
 import numpy as np
 import pandas as pd
 
+# from pyspark.ml.feature import StandardScaler
+# from pyspark.ml.feature import VectorAssembler
+# from pyspark.ml.regression import LinearRegression
+
 app=Flask(__name__)
 ## Load the model
+
+modelpath = "/Users/marionaidoo/Mario/GitHub/SparkRegressionModel_E2E"
+
 regmodel = pickle.load(open('regmodel.pkl','rb'))
-scalar = pickle.load(open('std_scaler.pkl','rb'))
-assembler = pickle.load(open('assembler.pkl','rb')) 
+scalar = pickle.load(open('scaling.pkl','rb'))
+
 
 @app.route('/')
 def home():
