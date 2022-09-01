@@ -24,7 +24,9 @@ Create a new environment - Run this on the terminal
 
 ''''
 
-conda activate pydev_38
+conda create -n venv python=3.8 -y
+
+conda activate venv_38
 
 
 ''''
