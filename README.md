@@ -2,9 +2,9 @@
 
  Regression Model - End to End 
 
-This is a Pyspark project using Boston housing data. 
+This is a project using Boston housing data. 
 
-## The project outcomes 
+## The project outcomes
 1. Python notebook
 2. Create a Github project
 3. Clone the Project - Creating the user and integration between local machine and Github
